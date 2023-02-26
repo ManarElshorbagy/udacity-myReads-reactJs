@@ -1,0 +1,25 @@
+.loader {
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    left: 50%;
+    top: 30%;
+    margin-left:-175px;
+  }
+  
+  .loaderSpinner {
+    position: relative;
+    top: 20%;
+    left: 40%;
+    border: 6px solid #f3f3f3;
+    border-top: 8px solid #2d98da;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spinner 3s linear infinite;
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

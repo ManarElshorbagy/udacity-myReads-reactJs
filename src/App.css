@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+html,
+body,
+.root {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+}
+
+body,
+.app {
+    background: #0d0d0d;
+}
